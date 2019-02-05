@@ -38,3 +38,23 @@ structure (RollResult) {
 ```
 
 #### action
+
+빅스비가 사용자를 대신해서 수행 할 작업을 정의한 것
+
+#### endpoint
+
+
+
+```
+endpoints {
+   authorization {
+     none
+   }
+   action-endpoints {
+     action-endpoint (RollDice) {
+       accepted-inputs (numDice, numSides)
+       local-endpoint ("RollDice.js")
+     }
+   }
+
+```
