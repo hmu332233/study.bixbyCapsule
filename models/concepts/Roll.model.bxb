@@ -1,3 +1,0 @@
-integer (Roll) {
-  description (The result of a dice roll.)
-}

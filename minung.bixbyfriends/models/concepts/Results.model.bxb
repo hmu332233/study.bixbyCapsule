@@ -1,0 +1,7 @@
+structure (Results) {
+  description (계산된 결과와 설명이 담기는 Output Concept)
+  property (__PROPERTY_NAME__) {
+    type (__PROPERTY_TYPE__)
+    min (Optional) max (One)
+  }
+}

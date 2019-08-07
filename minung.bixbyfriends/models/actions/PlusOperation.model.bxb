@@ -1,0 +1,16 @@
+action (PlusOperation) {
+  description (더하기를 하는 액션) // 액션을 설명하는 주석 같은 존재
+  collect {
+    // Input Concept 정의
+    input (leftOperand) { //  비즈니스 로직에서 사용할 변수명
+      type (LeftOperand) // Concept 이름
+      min (Optional) max (One)
+    }
+    input (rightOperand) {
+      type (RightOperand)
+      min (Optional) max (One)
+    }
+  }
+  type (Calculation) // 어떤일을 하는 액션이라는 것을 정의 (빅스비 서버에서 검색을 하기 쉽게하기 위함)
+  output (Results)
+}

@@ -1,0 +1,3 @@
+integer (LeftOperand) {
+  description (왼쪽 숫자)
+}
