@@ -1,0 +1,3 @@
+text (OperatorName) {
+  description (어떤 연산인지 담는 Concept)
+}

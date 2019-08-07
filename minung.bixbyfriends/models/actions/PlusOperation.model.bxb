@@ -4,11 +4,11 @@ action (PlusOperation) {
     // Input Concept 정의
     input (leftOperand) { //  비즈니스 로직에서 사용할 변수명
       type (LeftOperand) // Concept 이름
-      min (Optional) max (One)
+      min (Required) max (One) // min - (받을 여부가 옵션인 경우 Optional, 무조건 받아야하는 경우 Required), max - (하나의 정보만 받을경우 One, 여러 정보를 받을 경우 Many)
     }
     input (rightOperand) {
       type (RightOperand)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   type (Calculation) // 어떤일을 하는 액션이라는 것을 정의 (빅스비 서버에서 검색을 하기 쉽게하기 위함)

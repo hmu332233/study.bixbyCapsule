@@ -1,0 +1,3 @@
+integer (Result) {
+  description (결과가 담길 Concept)
+}

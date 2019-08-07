@@ -1,7 +1,12 @@
 structure (Results) {
+  // 예) 계산된 결과 (10), 이것은 더하기된 결과입니다.
   description (계산된 결과와 설명이 담기는 Output Concept)
-  property (__PROPERTY_NAME__) {
-    type (__PROPERTY_TYPE__)
+  property (result) {
+    type (Result)
+    min (Optional) max (One)
+  }
+  property (operatorName) {
+    type (OperatorName)
     min (Optional) max (One)
   }
 }
