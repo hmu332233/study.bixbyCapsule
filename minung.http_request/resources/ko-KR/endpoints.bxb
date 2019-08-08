@@ -1,0 +1,15 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (httpCall) { // action 이름
+      accepted-inputs ()
+      local-endpoint (httpCall.js) // 연결될 js 파일 이름
+    }
+
+    // action-endpoint (__ACTION_NAME__) {
+    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+    //   remote-endpoint (__ENDPOINT_URL__) {
+    //     method (__HTTP_METHOD_USED__)
+    //   }
+    // }
+  }
+}

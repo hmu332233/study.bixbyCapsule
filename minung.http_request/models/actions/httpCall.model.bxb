@@ -1,0 +1,5 @@
+action (httpCall) {
+  description (http call을 받는 action)
+  type (Constructor)
+  output (Results)
+}

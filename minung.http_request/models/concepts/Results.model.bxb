@@ -1,0 +1,11 @@
+structure (Results) {
+  description (api result)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (description) {
+    type (Description)
+    min (Optional) max (One)
+  }
+}
